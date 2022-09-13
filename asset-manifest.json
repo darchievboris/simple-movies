@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple-movies/static/css/main.31e944d2.css",
+    "main.js": "/simple-movies/static/js/main.21df0ad0.js",
+    "index.html": "/simple-movies/index.html",
+    "main.31e944d2.css.map": "/simple-movies/static/css/main.31e944d2.css.map",
+    "main.21df0ad0.js.map": "/simple-movies/static/js/main.21df0ad0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31e944d2.css",
+    "static/js/main.21df0ad0.js"
+  ]
+}
