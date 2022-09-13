@@ -10,8 +10,8 @@ function Main() {
         requestToServer()
     }, [])
 
-    const requestToServer = (request = "matrix") => {
-        const url = `${API_URL}&s=${request}`
+    const requestToServer = (search = "matrix", filter = "") => {
+        const url = `${API_URL}&s=${search}&type=${filter}`
         fetch(url)
             .then(response => response.json())
             .then(data => setMovies(data.Search))

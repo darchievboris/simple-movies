@@ -31,3 +31,7 @@ nav {
     top:0;
     right: 1rem;
 }
+
+label:not(:last-child){
+    margin-right: 2rem;
+}
